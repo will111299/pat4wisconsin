@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pat4Wisconsin</title>
+    <link href="/css/HomeStyle.css" rel="stylesheet" type="text/css"> <!--"/css/contact.css"-->
+</head>
+<body>
+<div class="container">
+
+    <!-- Navigation -->
+    <header> <a href="">
+        <img class="logo" src="../images/Pat%20Logo.png" alt="HomePicture">
+    </a>
+        <nav>
+            <ul>
+                <li><a href="../home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="issues.html">ISSUES</a></li>
+                <li><a href="endorsements.html">ENDORSEMENTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a id="donate" href="https://api.payaconnect.com/hostedpaymentpage?id=11ecddd107b67688869ece4e&data=U2FsdGVkX18xMWVjZGRkMRpN%2Fy6nWksKwSCczXq9u%2ByDGj5rV4Y5ggnUw%2BA7DeJSl5ZwiRtgj2htfiiBQ21EdA%3D%3D">DONATE</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div/>
+
+    <!-- Contact Form Content -->
+
+    <form method="POST" id="contact-form">
+        <input type="hidden" name="_token" value="jROj93ClTd44vcSwET1W8uQsHsk8UBd1uM18HwqM">            <div class="main wrapper clearfix three-fourths">
+        <!-- Start Main Content -->
+        <h3>Contact the Campaign</h3>
+
+
+
+        <fieldset>
+
+            <div class="form-row two-fifths">
+                <label>
+                    <span>First Name</span>
+                </label>
+                <input type="text" size="6" data-stripe="first_name" name="first_name" id="first_name">
+            </div>
+            <div class="form-row two-fifths">
+                <label>
+                    <span>Last Name</span>
+                </label>
+                <input type="text" size="6" data-stripe="last_name" name="last_name" id="last_name">
+            </div>
+            <div class="form-row fifth last">
+                <label>
+                    <span>&nbsp;</span>
+                </label>
+            </div>
+
+            <div class="form-row three-fifths">
+                <label>
+                    <span>Email Address</span>
+                    <input type="text" size="4" name="email" id="email">
+                </label>
+            </div>
+            <div class="form-row two-fifths last">
+                <label>
+                    <span>Phone Number</span>
+                </label>
+                <input type="text" size="6" data-stripe="phone" name="phone" id="phone">
+            </div>
+
+            <div class="form-row four-fifths">
+                <label>
+                    <span>Include a Message</span>
+                    <textarea name="message" id="message"></textarea>
+                </label>
+            </div>
+            <div class="form-row fifth last">
+                <label>
+                    <span>&nbsp;</span>
+                </label>
+            </div>
+        </fieldset>
+        <fieldset>
+
+            <h3>Optional Contact Information (Please Include Address for Yard Signs)</h3>
+            <div class="clearfix"></div>
+
+            <div class="form-row two-fifths">
+                <label>
+                    <span>Address Line 1</span>
+                </label>
+                <input type="text" size="6" name="address_1" id="address_1">
+            </div>
+
+            <div class="form-row two-fifths">
+                <label>
+                    <span>Address Line 2</span>
+                </label>
+                <input type="text" size="6" name="address_2" id="address_2">
+            </div>
+
+            <div class="form-row fifth last">
+                <label>
+                    <span>&nbsp;</span>
+                </label>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="form-row fifth">
+                <label>
+                    <span>City</span>
+                </label>
+                <input type="text" size="6" name="city" id="city">
+            </div>
+
+            <div class="form-row fifth">
+                <label>
+                    <span>State</span>
+                </label>
+                <input type="text" size="6" name="state" id="state">
+            </div>
+
+            <div class="form-row two-fifths">
+                <label>
+                    <span>Zip</span>
+                </label>
+                <input type="text" size="6" name="zip" id="zip">
+            </div>
+
+            <div class="form-row fifth last">
+                <label>
+                    <span>&nbsp;</span>
+                </label>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="form-row fifth last">
+                <label>
+                    <span>&nbsp;</span>
+                </label>
+            </div>
+
+            <div class="clearfix"></div>
+        </fieldset>
+    </div>
+
+
+        <aside class="right-aside fourth last">
+            <h3>I can help by...</h3>
+            <label for="1">
+                <input type="checkbox" name="volunteer[]" value="1" id="volunteer_1" title=""/>
+                <span>Display a Yard Sign</span>
+            </label>
+            <label for="2">
+                <input type="checkbox" name="volunteer[]" value="2" id="volunteer_2" title="Pass out campaign literature to voters in your district"/>
+                <span>Handout Literature</span>
+            </label>
+            <label for="3">
+                <input type="checkbox" name="volunteer[]" value="3" id="volunteer_3" title="Deliver yard signs to those who volunteer to display them"/>
+                <span>Deliver Yard Signs</span>
+            </label>
+            <label for="4">
+                <input type="checkbox" name="volunteer[]" value="4" id="volunteer_4" title="Organize handouts and yard signs for distribution"/>
+                <span>Assemble Signs & Literature</span>
+            </label>
+            <label for="5">
+                <input type="checkbox" name="volunteer[]" value="5" id="volunteer_5" title="Hand out literature, candy, and show your support at parades"/>
+                <span>Assist at Parades</span>
+            </label>
+            <label for="6">
+                <input type="checkbox" name="volunteer[]" value="6" id="volunteer_6" title="Host an informational event on behalf of Chuck Wichgers"/>
+                <span>Host an Event</span>
+            </label>
+            <label for="7">
+                <input type="checkbox" name="volunteer[]" value="7" id="volunteer_7" title="Make phone calls to friends and neighbors on behalf of Chuck Wichgers"/>
+                <span>Make Phone Calls</span>
+            </label>
+            <div class="g-recaptcha" data-sitekey="6LddZdIfAAAAAFeu3HMZwzclvkrJ983CIt_DLPti" data-size="normal" data-theme="light" id="recaptcha-element"></div>
+            <input type="submit" name="submit" id="form_submit" class="mobile-only" value="Submit"/>
+        </aside>
+
+
+        <div class="clearfix"></div>
+    </form>
+
+
+
+    <!-- Gallery Section -->
+    <div class="gallery" id="gallery">
+
+    </div>
+
+    <!-- Footer -->
+    <section class="footer_banner" id="contact">
+
+        <section class="otherLinks">
+            <h3>Links:</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/">Facebook</a></li>
+                <li><a href="https://www.linkedin.com/">Linkedin</a></li>
+            </ul>
+        </section>
+    </section>
+
+    <div class="copyright">&copy;2022- <strong>Pat4Wisconsin</strong></div>
+</div>
+</body>
+</html>
