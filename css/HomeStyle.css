@@ -86,6 +86,7 @@ ul li:hover a {
   width: 100%;
   background-color: var(--lightGray);
 }
+
 .row:after {
   content: "";
   display: table;
